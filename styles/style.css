@@ -593,7 +593,7 @@ h2 {
 
 .under_header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #F8F3F4;
   height: 150px;
@@ -1103,4 +1103,130 @@ a {
   line-height: normal;
   background-color: #F16D7F;
   border: none;
+}
+
+.registration-content {
+  padding-top: 64px;
+  padding-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.registration-content__left {
+  width: 360px;
+}
+.registration-content__left_p {
+  margin-top: -5px;
+  color: #C4C4C4;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration-content__right {
+  width: 652px;
+  gap: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.registration-content__right_p {
+  color: #222222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__right_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #222222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__right_ul li {
+  list-style-type: none;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+.registration-content__button {
+  margin-top: -19px;
+}
+.registration-content__radio {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  display: flex;
+  gap: 20px;
+}
+.registration-content__radio-checkbox {
+  display: flex;
+  gap: 10px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #222222;
+}
+.registration-content__input {
+  height: 44px;
+  border: 1px solid #C4C4C4;
+  padding: 12px 16px 13px 16px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #C4C4C4;
+}
+.registration-content__input::-moz-placeholder {
+  color: #EAEAEA;
+}
+.registration-content__input::placeholder {
+  color: #EAEAEA;
+}
+.registration-content__h2 {
+  color: #222222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #222222;
+}
+.registration-content__button {
+  height: 50px;
+  margin-top: 17px;
+  color: white;
+  font-style: normal;
+  line-height: normal;
+  background-color: #F16D7F;
+  border: none;
+  width: 167px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.registration-content__button:hover {
+  color: #F16D7F;
+  background-color: white;
+  border: 1px solid #F16D7F;
+}
+.registration-content__button:hover svg path {
+  fill: #F16D7F;
 }/*# sourceMappingURL=style.css.map */

@@ -635,7 +635,7 @@ h2 {
 
 .under_header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #F8F3F4;
     height: 150px;
@@ -1210,5 +1210,145 @@ a {
         line-height: normal;
         background-color: $colorSelect;
         border: none;
+    }
+}
+
+.registration-content {
+    padding-top: 64px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        width: 360px;
+
+        &_p {
+            margin-top: -5px;
+            color: $colorPages;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__right {
+        width: 652px;
+        gap: 22px;
+        display: flex;
+        flex-direction: column;
+
+        &_p {
+            color: $colorBGC;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+        &_ul {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            color: $colorBGC;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+
+            & li {
+                list-style-type: none;
+                display: flex;
+                gap: 23px;
+                align-items: center;
+            }
+        }
+    }
+
+    &__button {
+        margin-top: -19px;
+    }
+
+    &__radio {
+        margin-top: 13px;
+        margin-bottom: 13px;
+        display: flex;
+        gap: 20px;
+    }
+
+    &__radio-checkbox {
+        display: flex;
+        gap: 10px;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        color: $colorBGC;
+    }
+
+    &__input {
+        height: 44px;
+        border: 1px solid $colorPages;
+        padding: 12px 16px 13px 16px;
+        box-sizing: border-box;
+        outline: none;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        color: $colorPages;
+
+        &::placeholder {
+            color: $colorBorder;
+        }
+    }
+
+    &__h2 {
+        color: $colorBGC;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__h4 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        color: $colorBGC;
+    }
+
+    &__button {
+        height: 50px;
+        margin-top: 17px;
+        color: $bgcUniversal;
+        font-style: normal;
+        line-height: normal;
+        background-color: $colorSelect;
+        border: none;
+        width: 167px;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        &:hover {
+            color: $colorSelect;
+            background-color: $bgcUniversal;
+            border: 1px solid $colorSelect;
+
+            svg path {
+                fill: $colorSelect;
+            }
+        }
     }
 }
