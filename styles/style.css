@@ -1404,6 +1404,9 @@ a {
   .main_content_bottom .details_row details summary {
     font-size: 10px;
   }
+  .main_content_bottom .details_row details summary svg {
+    width: unset;
+  }
   .main_content_bottom .browse_button {
     justify-content: left;
     padding-left: 24px;
@@ -1419,6 +1422,9 @@ a {
   }
   .items .items_text h4 {
     text-align: center;
+  }
+  .main_body {
+    overflow: hidden;
   }
   .main_body .filter_summary {
     background-image: url(../img/filter.svg);

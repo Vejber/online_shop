@@ -1554,6 +1554,7 @@ a {
 
             svg {
                 width: 70%;
+                // width: unset;
             }
 
             .details_row {
@@ -1565,6 +1566,10 @@ a {
 
                     summary {
                         font-size: 10px;
+
+                        svg {
+                            width: unset;
+                        }
                     }
                 }
             }
@@ -1598,6 +1603,8 @@ a {
     }
 
     .main_body {
+        overflow: hidden;
+
         .filter_summary {
             background-image: url(../img/filter.svg);
             width: 40px;
