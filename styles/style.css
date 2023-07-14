@@ -1117,6 +1117,13 @@ a {
   display: none;
 }
 
+.cart_text h2 a {
+  color: inherit;
+}
+.cart_text article {
+  margin-top: -20px;
+}
+
 @media (max-width: 1024px) {
   .header {
     padding-left: 50px;
@@ -1255,6 +1262,9 @@ a {
   }
   .registration-content__h2 {
     font-size: 16px;
+  }
+  .cart_text article {
+    margin-top: -25px;
   }
 }
 @media (max-width: 767px) {
